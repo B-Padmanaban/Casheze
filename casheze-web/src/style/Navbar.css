@@ -1,0 +1,8 @@
+.bg-Color{
+  background-color: #0c0f1f !important;
+}
+
+.navbar-brand img:hover {
+  filter: drop-shadow(0 0 6px #00ffff);
+  transition: 0.3s ease;
+}
