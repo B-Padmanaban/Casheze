@@ -21,6 +21,7 @@ const Navbar = ({ isLoggedIn, handleLogout }) => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarContent">
           <ul className="navbar-nav mb-2 mb-lg-0 gap-2">
             <li className="nav-item"><a className="nav-link active" href="/">Home</a></li>
+            <li className="nav-item"><a className="nav-link" href="/add-device">Add Device</a></li>
             <li className="nav-item"><a className="nav-link" href="/QuoteForm">Add Quote</a></li>
             <li className="nav-item"><a className="nav-link" href="/PickUpForm">Add PickUp</a></li>
             <li className="nav-item"><a className="nav-link" href="/MyQuote">My Quote</a></li>

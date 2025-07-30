@@ -6,6 +6,7 @@ import ProtectedRoute from './Components/ProtectedRoute';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Home from './pages/Home';
+import AddDevice from './pages/AddDevice';
 import QuoteForm from './pages/QuoteForm';
 import MyQuotes from './pages/MyQuote';
 import PickupForm from './pages/PickUpForm';
@@ -29,6 +30,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<ProtectedRoute><Home /></ProtectedRoute>} />
+        <Route path="/add-device" element={<ProtectedRoute><AddDevice /></ProtectedRoute>} />
         <Route path="/quote" element={<ProtectedRoute><QuoteForm /></ProtectedRoute>} />
         <Route path="/my-quotes" element={<ProtectedRoute><MyQuotes /></ProtectedRoute>} />
         <Route path="/schedule-pickup" element={<ProtectedRoute><PickupForm /></ProtectedRoute>} />
